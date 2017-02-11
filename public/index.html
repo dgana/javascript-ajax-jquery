@@ -79,10 +79,11 @@
         url: 'http://localhost:3000/colors',
         dataType: 'json',
         success: function(data){
-          box[data.i].style.backgroundColor = data.color
+          console.log();
+          box[data.i].style.backgroundColor = `rgb(${data.rgb1},${data.rgb2},${data.rgb3})`;
         },
         error: function() {
-          alert("An error has occurred")
+          alert("An error has occurred");
         }
       })
     })
