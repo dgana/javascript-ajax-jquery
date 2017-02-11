@@ -1,8 +1,11 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.box {
+  margin: auto;
+  height: 100px;
+  width: 145px;
+  background-color: rgba(232,232,232,0.8);
+  border-radius: 4px;
 }
 
-a {
-  color: #00B7FF;
+.row {
+  margin-bottom: 5px;
 }
